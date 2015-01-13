@@ -3,8 +3,8 @@
 package check_test
 
 import (
+	. "github.com/penlook/check"
 	"time"
-	. "gopkg.in/check.v1"
 )
 
 var benchmarkS = Suite(&BenchmarkS{})
